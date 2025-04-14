@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  color: rgb(216, 200, 112);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.list {
+  border: 1px solid white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20;
+  list-style: none;
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px black;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 10px;
+}
+li:hover {
+  margin-bottom: 10px;
+  color: gold;
+  text-shadow: 0 4px 8px gold;
+  cursor: pointer;
+}
+button {
+  outline: none;
+  border: 1px solid gold;
+  padding: 5px 50px;
+  border-radius: 20px;
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+button:hover {
+  color: gold;
+  background-color: white;
+  box-shadow: 0 4px 8px gold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+  color: gold;
+  text-align: center;
+  background-color: black;
+}
